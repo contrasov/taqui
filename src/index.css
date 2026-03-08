@@ -6,9 +6,8 @@
 
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  background-color: #e4e4e4;
+  background-color: #f3f4f6;
   --radius: 0.625rem;
-  --background: oklch(1 0 0);
   --foreground: oklch(0.145 0 0);
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.145 0 0);
@@ -119,6 +118,7 @@
 @theme {
   --color-bluePrincipal: #3c6fee;
   --color-blackPrincipal: #1a1a1a;
+  --color-backgroundPrincipal: #f3f4f6;
 }
 
 @layer base {
