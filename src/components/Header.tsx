@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 
 function Header() {
     return (
-        <main className="flex flex-row items-center justify-between bg-bluePrincipal py-6 px-62.5 w-full">
+        <header className="flex flex-row items-center justify-between bg-bluePrincipal py-6 px-40 w-full">
             <h1 className="text-white text-2xl font-black">TaQui</h1>
             <div className="w-1/2 relative">
                 <Input placeholder="Pesquisar..." className="bg-white rounded-4xl border-2 h-10 border-blackPrincipal pr-20" />
@@ -20,7 +20,7 @@ function Header() {
                     <p className="text-sm">Pedidos</p>
                 </div>
             </div>
-        </main>
+        </header>
     )
 }
 
